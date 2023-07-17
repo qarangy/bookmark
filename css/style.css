@@ -249,7 +249,7 @@ select:-webkit-autofill:focus {
     margin-right: 65px;
 }
 
-.hero_title {
+.hero__title {
     margin-top: 0;
     margin-bottom: 24px;
     font-size: 48px;
