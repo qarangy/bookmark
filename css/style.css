@@ -53,7 +53,8 @@ body {
     letter-spacing: 0.15px;
     font-family: 'Rubik', 'Arial', sans-serif;
     background-color: #fff;
-    color: var(--text-color);
+    color: var(--text-color-50);
+    overflow-x: hidden;
 }
 
 img {
@@ -229,6 +230,56 @@ select:-webkit-autofill:focus {
 }
 
 
+/* HERO */
+.hero {
+    padding-top: 60px;
+    padding-bottom: 105px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero__content {
+    width: 100%;
+    max-width: 540px;
+    flex-shrink: 0;
+    padding-top: 65px;
+    margin-right: 65px;
+}
+
+.hero_title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.hero__description {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.hero__action {
+    display: flex;
+}
+
+.hero__action-item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.hero__img {
+    width: 578px;
+    height: 385px;
+    flex-shrink: 0;
+    object-fit: contain;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.50));
+}
 
 
 /* RETINA */
