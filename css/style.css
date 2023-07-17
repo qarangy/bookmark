@@ -282,6 +282,37 @@ select:-webkit-autofill:focus {
 }
 
 
+/* SECTION */
+.section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.section__info {
+    width: 100%;
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.section__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 52px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.section__description {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
 /* RETINA */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
