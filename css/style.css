@@ -1,6 +1,32 @@
 :root {
-
+    --blue: #5267df;
+    --red: #fa5959;
+    --text-color: #242a45;
+    --text-color-75: rgba(36, 42, 69, 0.75);
+    --text-color-50: rgba(36, 42, 69, 0.5);
 }
+
+
+/* FONTS */
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik-Regular.woff2') format('woff2'),
+        url('Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik-Medium.woff2') format('woff2'),
+        url('Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 
 /* GLOBAL */
@@ -23,10 +49,11 @@ body {
     margin: 0;
     height: 100%;
     font-size: 16px;
-    line-height: 1.5;
-    font-family: 'Arial', sans-serif;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    font-family: 'Rubik', 'Arial', sans-serif;
     background-color: #fff;
-    color: #222;
+    color: --;
 }
 
 img {
@@ -45,9 +72,9 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border-color: transparent;
-  -webkit-text-fill-color: inherit;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    border-color: transparent;
+    -webkit-text-fill-color: inherit;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
 } */
 
 
@@ -67,9 +94,9 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
     width: 100%;
-    max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 11500px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
