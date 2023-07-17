@@ -155,6 +155,37 @@ select:-webkit-autofill:focus {
 }
 
 
+/* SECTION */
+.section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.section__info {
+    width: 100%;
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.section__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 52px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.section__description {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
 /* LOGO */
 .logo {
     display: block;
@@ -282,22 +313,79 @@ select:-webkit-autofill:focus {
 }
 
 
-/* SECTION */
-.section {
-    padding-top: 75px;
-    padding-bottom: 75px;
+/* FEATURES */
+.features__section-info {
+    margin-bottom: 44px;
 }
 
-.section__info {
-    width: 100%;
-    max-width: 540px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 48px;
+
+/* TABS */
+.tabs__list {
+    display: flex;
+    justify-content: center;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.section__title {
+.tabs__item {
+    width: 100%;
+    max-width: 243px;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(73, 93, 207, 0.20);
+}
+
+.tabs__item--active .tabs__link {
+    border-bottom: 4px solid var(--red);
+    color: var(--text-color);
+}
+
+.tabs__link {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    display: block;
+    text-decoration: none;
+    color: var(--text-color-75);
+}
+
+.tabs__link:hover {
+    color: var(--red);
+}
+
+
+/* TABS PANELS */
+.tabs__panels {
+    padding-top: 75px;
+    padding-bottom: 90px;
+    background-image: url(/img/blue-circle.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 580px) 155px;
+}
+.tabs__panel {
+    display: none;
+}
+.tabs__panel--active {
+    display: block;
+}
+.feature-tab-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature-tab-panel__img {
+    width: 536px;
+    height: 346px;
+    object-fit: contain;
+    margin-right: 30px;
+}
+.feature-tab-panel__info {
+    width: 100%;
+    max-width: 445px;
+}
+.feature-tab-panel__title {
     margin-top: 0;
     margin-bottom: 16px;
     font-size: 32px;
@@ -305,9 +393,9 @@ select:-webkit-autofill:focus {
     font-weight: 500;
     color: var(--text-color);
 }
-
-.section__description {
-    margin: 0;
+.feature-tab-panel__text {
+    margin-top: 0;
+    margin-bottom: 32px;
     font-size: 18px;
     line-height: 28px;
 }
