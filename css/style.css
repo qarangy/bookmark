@@ -357,7 +357,7 @@ select:-webkit-autofill:focus {
 
 
 /* TABS PANELS */
-.tabs__panels {
+.tabpanels {
     padding-top: 75px;
     padding-bottom: 90px;
     background-image: url(/img/blue-circle.svg);
@@ -365,11 +365,11 @@ select:-webkit-autofill:focus {
     background-position: calc(50% - 580px) 155px;
 }
 
-.tabs__panel {
+.tabpanels__item {
     display: none;
 }
 
-.tabs__panel--active {
+.tabpanels__item--active {
     display: block;
 }
 
