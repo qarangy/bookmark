@@ -364,27 +364,33 @@ select:-webkit-autofill:focus {
     background-repeat: no-repeat;
     background-position: calc(50% - 580px) 155px;
 }
+
 .tabs__panel {
     display: none;
 }
+
 .tabs__panel--active {
     display: block;
 }
+
 .feature-tab-panel {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .feature-tab-panel__img {
     width: 536px;
     height: 346px;
     object-fit: contain;
     margin-right: 30px;
 }
+
 .feature-tab-panel__info {
     width: 100%;
     max-width: 445px;
 }
+
 .feature-tab-panel__title {
     margin-top: 0;
     margin-bottom: 16px;
@@ -393,6 +399,7 @@ select:-webkit-autofill:focus {
     font-weight: 500;
     color: var(--text-color);
 }
+
 .feature-tab-panel__text {
     margin-top: 0;
     margin-bottom: 32px;
